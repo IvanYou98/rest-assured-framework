@@ -1,17 +1,14 @@
 url:
-  todo: https://gorest.co.in/public/v2/todos
+  user: http://localhost:8080/users
 
+swagger:
+  user: http://localhost:8080/swagger-ui/
 
 path:
   todo:
     create: /
     getList: /
     getDetail: /{id}
-    update: /{id}
-    delete: /{id}
 
-
-token:
-  todo: a0e35c00e076338cd95833d40bc6b865fbc375d6d89174a56026f480f305690b
 
 
